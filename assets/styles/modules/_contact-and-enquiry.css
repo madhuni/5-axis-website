@@ -1,0 +1,19 @@
+.contact-and-enquiry {
+	
+	&__form {
+		font-family: 'AkkuratBold';
+		font-size: 20px;
+		padding-bottom: 56px;
+	}
+
+	&__form__submit-btn {
+		display: block;
+		width: 192px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.form-group__text-area {
+		resize: none;
+	}
+}

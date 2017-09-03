@@ -6727,17 +6727,23 @@ button.close {
 		padding-left: 0;
 		padding-right: 0;
 	}
+.wrapper--form {
+		max-width: 496px;
+	}
 .headline {
 	font-size: 40px;
 	font-family: AkkuratBold;
 	font-weight: bold;
-	color: #fff;
 	margin: 0;
 }
 .headline--centered {
 		text-align: center;
 	}
 .headline--about-company-heading {
+		color: #fff;
+	}
+.headline--about-company-heading,
+	.headline--form-headline {
 		padding: 84px 0 70px;
 	}
 .section-background {
@@ -6783,3 +6789,17 @@ button.close {
 .hr-rule {
 	margin: 36px 0 66px;
 }
+.contact-and-enquiry__form {
+		font-family: 'AkkuratBold';
+		font-size: 20px;
+		padding-bottom: 56px;
+	}
+.contact-and-enquiry__form__submit-btn {
+		display: block;
+		width: 192px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+.contact-and-enquiry .form-group__text-area {
+		resize: none;
+	}

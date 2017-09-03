@@ -6743,7 +6743,8 @@ button.close {
 		color: #fff;
 	}
 .headline--about-company-heading,
-	.headline--form-headline {
+	.headline--form-headline,
+	.headline--features-headline {
 		padding: 84px 0 70px;
 	}
 .section-background {
@@ -6802,4 +6803,30 @@ button.close {
 	}
 .contact-and-enquiry .form-group__text-area {
 		resize: none;
+	}
+.features {
+	
+	background-color: #444444;
+	color: #fff;
+}
+.features__feature-container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+.features__feature-item {
+		text-align: center;
+		max-width: 168px;
+		width: 25%;
+		margin-right: 66px;
+		margin-bottom: 66px;
 	}

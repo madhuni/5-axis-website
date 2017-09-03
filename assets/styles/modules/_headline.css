@@ -13,7 +13,8 @@
 	}
 
 	&--about-company-heading,
-	&--form-headline {
+	&--form-headline,
+	&--features-headline {
 		padding: 84px 0 70px;
 	}
 }

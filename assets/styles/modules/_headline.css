@@ -1,0 +1,15 @@
+.headline {
+	font-size: 40px;
+	font-family: $headlineFont;
+	font-weight: bold;
+	color: $fontColor;
+	margin: 0;
+
+	&--centered {
+		text-align: center;
+	}
+
+	&--about-company-heading {
+		padding: 84px 0 70px;
+	}
+}

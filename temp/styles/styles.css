@@ -6831,7 +6831,8 @@ button.close {
 		text-align: center;
 		max-width: 168px;
 		width: 25%;
-		margin-right: 66px;
+		margin-right: 60px;
+		margin-left: 60px;
 		margin-bottom: 66px;
 	}
 .product-details {

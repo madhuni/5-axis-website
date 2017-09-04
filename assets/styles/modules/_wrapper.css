@@ -12,8 +12,17 @@
 		max-width: 496px;
 	}
 
-	&--nav {
+	&--nav,
+	&--footer {
 		display: flex;
 		flex-direction: row;
+	}
+
+	&--footer {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
 	}
 }

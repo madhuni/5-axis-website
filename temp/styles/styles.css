@@ -6739,12 +6739,16 @@ button.close {
 .headline--centered {
 		text-align: center;
 	}
+.headline--leftaligned {
+		text-align: left;
+	}
 .headline--about-company-heading {
 		color: #fff;
 	}
 .headline--about-company-heading,
 	.headline--form-headline,
-	.headline--features-headline {
+	.headline--features-headline,
+	.headline--about-product {
 		padding: 84px 0 70px;
 	}
 .section-background {
@@ -6830,3 +6834,30 @@ button.close {
 		margin-right: 66px;
 		margin-bottom: 66px;
 	}
+.product-details {
+	
+	padding-bottom: 137px;
+}
+.product-details__row {
+		position: relative;
+	}
+.product-details__description {
+
+		padding-left: 0;
+		padding-right: 51px;
+	}
+.product-details__description p {
+			font-size: 20px;
+			line-height: 1.4;
+			font-family: 'LiberationSans';
+		}
+.product-details__product-image {
+
+		position: absolute;
+		top: -70px;
+		right: 0;
+	}
+.product-details__product-image img {
+			display: block;
+			margin: 0 auto;
+		}

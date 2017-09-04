@@ -19,7 +19,8 @@
 	&--about-company-heading,
 	&--form-headline,
 	&--features-headline,
-	&--about-product {
+	&--about-product,
+	&--tech-specs {
 		padding: 84px 0 70px;
 	}
 }

@@ -6748,7 +6748,8 @@ button.close {
 .headline--about-company-heading,
 	.headline--form-headline,
 	.headline--features-headline,
-	.headline--about-product {
+	.headline--about-product,
+	.headline--tech-specs {
 		padding: 84px 0 70px;
 	}
 .section-background {
@@ -6862,3 +6863,33 @@ button.close {
 			display: block;
 			margin: 0 auto;
 		}
+.tech-specs {
+	
+	margin-bottom: 72px;
+}
+.tech-specs__item {
+		position: relative;
+		margin-bottom: 72px;
+	}
+.tech-specs__item__item-img {
+			margin: 0 auto;
+		}
+.tech-specs__item__details {
+			position: absolute;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			        transform: translateY(-50%);
+			max-width: 270px;
+			font-size: 17px;
+		}
+.tech-specs__item__details__subheading {
+				font-family: 'AkkuratBold';
+				font-weight: bold;
+				text-align: center;
+			}
+.tech-specs__item__details--left {
+				left: 0;
+			}
+.tech-specs__item__details--right {
+				right: 0;
+			}

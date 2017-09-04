@@ -16,6 +16,10 @@
 		color: $fontColor;
 	}
 
+	&--top-heading {
+		font-size: 50px;
+	}
+
 	&--about-company-heading,
 	&--form-headline,
 	&--features-headline,

@@ -1,0 +1,44 @@
+.project-header {
+	
+	padding-top: 27px;
+	background-color: darkviolet;
+
+	&__triangle-container {
+		width: 100%;
+		height: 394px;
+		position: relative;
+		background-color: yellow;
+
+		&__main-heading {
+			position: absolute;
+			top: 43.9%;
+			left: 0;
+			transform: translateY(-50%);
+			width: 100%;
+			text-align: center;
+
+			&__subtitle {
+				display: block;
+				max-width: 400px;
+				margin: 0 auto;
+				padding-top: 22px;
+			}
+
+		}
+	}
+	
+	&__img-container {
+		
+		position: relative;
+		height: 591px;
+
+		&__img {
+			position: absolute;
+			top: 60px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 1;
+		}
+	}
+
+}

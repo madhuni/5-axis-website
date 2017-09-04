@@ -6865,7 +6865,8 @@ button.close {
 		}
 .tech-specs {
 	
-	margin-bottom: 72px;
+	padding-bottom: 72px;
+	background-color: #f5f5f5;
 }
 .tech-specs__item {
 		position: relative;

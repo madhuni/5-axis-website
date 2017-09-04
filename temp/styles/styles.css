@@ -7060,7 +7060,11 @@ button.close {
 	}
 .project-footer__terms-list li {
 			display: inline-block;
-			margin: 0 25px;
+			padding: 0 25px;
+		}
+.project-footer__terms-list li:nth-child(1),
+		.project-footer__terms-list li:nth-child(2) {
+			border-right: 1px solid #fff;
 		}
 .project-footer__social-media-container {
 		

@@ -39,7 +39,12 @@
 
 		li {
 			display: inline-block;
-			margin: 0 25px;
+			padding: 0 25px;
+		}
+
+		li:nth-child(1),
+		li:nth-child(2) {
+			border-right: 1px solid #fff;
 		}
 	}
 

@@ -6730,6 +6730,15 @@ button.close {
 .wrapper--form {
 		max-width: 496px;
 	}
+.wrapper--nav {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
 .headline {
 	font-size: 40px;
 	font-family: AkkuratBold;
@@ -6937,4 +6946,40 @@ button.close {
 			-webkit-transform: translateX(-50%);
 			        transform: translateX(-50%);
 			z-index: 1;
+		}
+.project-nav {
+	
+	padding: 8px 0;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.88);
+}
+.project-nav__img-container {
+		width: 30%;
+	}
+.project-nav__nav-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		width: 70%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+	}
+.project-nav__nav-list li {
+			display: inline-block;
+			margin-left: 52px;
+			text-transform: uppercase;
 		}

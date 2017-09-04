@@ -1,0 +1,29 @@
+.project-nav {
+	
+	padding: 8px 0;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	color: $fontColor;
+	background-color: $navColor;
+
+	&__img-container {
+		width: 30%;
+	}
+
+	&__nav-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		width: 70%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+
+		li {
+			display: inline-block;
+			margin-left: 52px;
+			text-transform: uppercase;
+		}
+	}
+}

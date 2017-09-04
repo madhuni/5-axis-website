@@ -11,4 +11,9 @@
 	&--form {
 		max-width: 496px;
 	}
+
+	&--nav {
+		display: flex;
+		flex-direction: row;
+	}
 }

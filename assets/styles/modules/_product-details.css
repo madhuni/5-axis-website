@@ -1,0 +1,32 @@
+.product-details {
+	
+	padding-bottom: 137px;
+	
+	&__row {
+		position: relative;
+	}
+
+	&__description {
+
+		padding-left: 0;
+		padding-right: 51px;
+
+		p {
+			font-size: 20px;
+			line-height: 1.4;
+			font-family: 'LiberationSans';
+		}
+	}
+
+	&__product-image {
+
+		position: absolute;
+		top: -70px;
+		right: 0;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}

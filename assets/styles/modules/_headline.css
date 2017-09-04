@@ -7,6 +7,10 @@
 	&--centered {
 		text-align: center;
 	}
+
+	&--leftaligned {
+		text-align: left;
+	}
 	
 	&--about-company-heading {
 		color: $fontColor;
@@ -14,7 +18,8 @@
 
 	&--about-company-heading,
 	&--form-headline,
-	&--features-headline {
+	&--features-headline,
+	&--about-product {
 		padding: 84px 0 70px;
 	}
 }

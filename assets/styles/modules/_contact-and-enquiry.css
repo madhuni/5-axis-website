@@ -1,4 +1,11 @@
 .contact-and-enquiry {
+	color: $fontColor;
+
+	&__msg {
+		text-align: center;
+		padding-bottom: 54px;
+		margin-bottom: 0;
+	}
 	
 	&__form {
 		font-family: 'AkkuratBold';
@@ -15,5 +22,13 @@
 
 	.form-group__text-area {
 		resize: none;
+	}
+
+	.form-group {
+		margin-bottom: 37px !important;
+
+		label {
+			text-transform: uppercase;
+		}
 	}
 }

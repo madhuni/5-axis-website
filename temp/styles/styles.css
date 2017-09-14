@@ -6775,11 +6775,13 @@ button.close {
 .headline--top-heading {
 		font-size: 50px;
 	}
-.headline--form-headline,
-	.headline--features-headline,
+.headline--features-headline,
 	.headline--about-product,
 	.headline--tech-specs {
 		padding: 72px 0 48px;
+	}
+.headline--form-headline {
+		padding: 72px 0 21px;
 	}
 .headline--about-company-heading {
 		padding: 96px 0 48px;
@@ -6828,6 +6830,14 @@ button.close {
 .hr-rule {
 	margin: 36px 0 66px;
 }
+.contact-and-enquiry {
+	color: #fff;
+}
+.contact-and-enquiry__msg {
+		text-align: center;
+		padding-bottom: 54px;
+		margin-bottom: 0;
+	}
 .contact-and-enquiry__form {
 		font-family: 'AkkuratBold';
 		font-size: 20px;
@@ -6842,6 +6852,12 @@ button.close {
 .contact-and-enquiry .form-group__text-area {
 		resize: none;
 	}
+.contact-and-enquiry .form-group {
+		margin-bottom: 37px !important;
+	}
+.contact-and-enquiry .form-group label {
+			text-transform: uppercase;
+		}
 .features {
 	
 	background-color: #444444;

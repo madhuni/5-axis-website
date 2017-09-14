@@ -20,11 +20,14 @@
 		font-size: 50px;
 	}
 
-	&--form-headline,
 	&--features-headline,
 	&--about-product,
 	&--tech-specs {
 		padding: 72px 0 48px;
+	}
+	
+	&--form-headline {
+		padding: 72px 0 21px;
 	}
 
 	&--about-company-heading {

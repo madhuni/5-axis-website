@@ -13,7 +13,7 @@
 	}
 	
 	&--about-company-heading {
-		color: $fontColor;
+		/*color: $fontColor;*/
 	}
 
 	&--top-heading {

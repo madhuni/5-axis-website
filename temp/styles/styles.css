@@ -6770,7 +6770,7 @@ button.close {
 		text-align: left;
 	}
 .headline--about-company-heading {
-		color: #fff;
+		/*color: $fontColor;*/
 	}
 .headline--top-heading {
 		font-size: 50px;
@@ -6787,10 +6787,9 @@ button.close {
 .section-background {
 	background-color: #444444;
 }
-.about-company {
-	color: #fff;
-}
+/*color: black;*/
 .about-company p {
+		text-align: center;
 		font-size: 20px;
 		font-weight: 300;
 		font-family: LiberationSans;

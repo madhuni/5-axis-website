@@ -6,12 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="5 Axis Machine, features">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
 	<script type="text/javascript" src="assets/scripts/vendor.js"></script>
 </head>
 <body>
-	<nav class="project-nav">
-		<div class="wrapper wrapper--nav">
+	<!-- The old code for the navigation bar is commented for future reference -->
+	<!-- <nav class="project-nav">
+		<div class="wrapper wrapper-nav">
 			<div class="project-nav__img-container">
 				<img data-src="http://via.placeholder.com/24x24" alt="Company Logo" width="24" height="24" class="project-nav__img-container__img lazyload">
 			</div>
@@ -22,10 +24,39 @@
 				<li class="project-nav__nav-list__item"><a href="#about-company-section" class="project-nav__nav-list__links">Company Profile</a></li>
 				<li class="project-nav__nav-list__item"><a href="#contact-section" class="project-nav__nav-list__links">Contacts</a></li>
 			</ul>
+			<div class="project-nav__bars-container">
+				<i class="fa fa-bars"></i>
+			</div>
 		</div>
-	</nav><!-- end of 'nav' -->
+	</nav> -->
 
-	<header class="project-header">
+	<!-- Bootstrap navigation bar is been added -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="wrapper">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#project-nav" aria-expanded="false">
+	          <span class="sr-only">Toggle navigation</span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="http://etherealmachines.com/"><img data-src="http://via.placeholder.com/24x24" alt="Company Logo" class="lazyload">
+	        </a>
+	      </div>
+	      <div id="project-nav" class="collapse navbar-collapse">
+	        <ul class="navbar__nav-list nav navbar-nav navbar-right">
+	          <li><a href="#about-section">About Product</a></li>
+	          <li><a href="#features-section">Features</a></li>
+	          <li><a href="#specs-section">Specs</a></li>
+	          <li><a href="#about-company-section">Comany Profile</a></li>
+	          <li><a href="#contact-section">Contacts</a></li>
+	        </ul>
+	      </div>
+	      <!--/.nav-collapse -->
+	    </div><!-- End of 'wrapper' -->
+	</nav>
+
+	<header id="home" class="project-header">
 		<div class="project-header__img-container">
 			<img data-src="assets/images/product-front-view copy.png" height="591" width="481" alt="Product image from front view" class="img-responsive project-header__img-container__img lazyload">
 		</div>
@@ -238,6 +269,8 @@
 	</footer>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js
+"></script>
 	<script type="text/javascript" src="assets/scripts/app.js"></script>
 </body>
 </html>

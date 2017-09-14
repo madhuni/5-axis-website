@@ -6718,6 +6718,12 @@ button.close {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
+.active {
+	display: block !important;
+}
+.hide {
+	display: none !important;
+}
 .wrapper {
 	margin: 0 auto;
 	padding: 0 20px;
@@ -6963,61 +6969,100 @@ button.close {
 			        transform: translateX(-50%);
 			z-index: 1;
 		}
-.project-nav {
-	
+.navbar__nav-list {
+		text-align: center;
+	}
+.navbar__nav-list li:hover {
+			background-color: black;
+		}
+/* 
+* CSS for the navigation bar before adding the 
+* bootstrap navigation
+*/
+/*.project-nav {
+
 	padding: 8px 0;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	justify-content: center;
 	font-family: 'Roboto', sans-serif;
-	color: #fff;
-	background-color: rgba(0, 0, 0, 0.88);
+	color: $fontColor;
+	background-color: $navColor;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 20;
-}
-.project-nav__img-container {
-		width: 30%;
+
+	&__img-container {
+		width: 10%;
 	}
-.project-nav__nav-list {
+
+	&__nav-list {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		width: 70%;
-		display: -webkit-box;
-		display: -ms-flexbox;
+		width: 90%;
 		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: row;
-		        flex-direction: row;
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
-		-webkit-box-pack: end;
-		    -ms-flex-pack: end;
-		        justify-content: flex-end;
-		-webkit-box-align: center;
-		    -ms-flex-align: center;
-		        align-items: center;
-	}
-.project-nav__nav-list li {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		align-items: center;
+
+		@mixin atMedium {
+			text-align: center;
+			display: none;
+			position: absolute;
+			width: 100%;
+			top:40px;
+			left: 0;
+			background-color: black;
+		}
+
+		li {
 			display: inline-block;
 			margin-left: 52px;
 			text-transform: uppercase;
+
+			@mixin atMedium {
+				display: block !important;
+				margin-left: 0 !important;
+			}
 		}
-.project-nav__nav-list__links {
-			color: #fff;
+
+		&__links {
+			color: $fontColor;
 			text-decoration: none;
 		}
-.project-nav__nav-list__links:hover {
+
+		&__links:hover {
 			text-decoration: underline;
-			color: #fff;
+			color: $fontColor;
 		}
-.project-nav__nav-list__links:focus {
-			color: #fff;
+
+		&__links:focus {
+			color: $fontColor;
 		}
+	}
+
+	&__bars-container {
+		display: none;
+		text-align: center;
+		color: $fontColor;
+		width: 5%;
+		position: relative;
+
+		@mixin atMedium {
+			display: flex;
+			justify-content: flex-end;
+			width: 90%;
+		}
+
+		i {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+}*/
 .project-footer {
 
 	background-color: rgba(0, 0, 0, 0.88);

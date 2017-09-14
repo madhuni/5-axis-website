@@ -19,6 +19,8 @@
 		img {
 			/* move these properties for the media queries*/
 			margin-right: 20px;
+			margin-left: 20px;
+			margin-bottom: 30px;
 		}
 
 		&__make-in-india {

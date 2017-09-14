@@ -6968,6 +6968,11 @@ button.close {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	background-color: rgba(0, 0, 0, 0.88);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
 }
 .project-nav__img-container {
 		width: 30%;
@@ -6989,11 +6994,25 @@ button.close {
 		-webkit-box-pack: end;
 		    -ms-flex-pack: end;
 		        justify-content: flex-end;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 .project-nav__nav-list li {
 			display: inline-block;
 			margin-left: 52px;
 			text-transform: uppercase;
+		}
+.project-nav__nav-list__links {
+			color: #fff;
+			text-decoration: none;
+		}
+.project-nav__nav-list__links:hover {
+			text-decoration: underline;
+			color: #fff;
+		}
+.project-nav__nav-list__links:focus {
+			color: #fff;
 		}
 .project-footer {
 

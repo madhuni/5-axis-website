@@ -16,11 +16,11 @@
 				<img data-src="http://via.placeholder.com/24x24" alt="Company Logo" width="24" height="24" class="project-nav__img-container__img lazyload">
 			</div>
 			<ul class="project-nav__nav-list">
-				<li class="project-nav__nav-list__item">About</li>
-				<li class="project-nav__nav-list__item">Feature</li>
-				<li class="project-nav__nav-list__item">Specs</li>
-				<li class="project-nav__nav-list__item">About</li>
-				<li class="project-nav__nav-list__item">Contact</li>
+				<li class="project-nav__nav-list__item"><a href="#about-section" class="project-nav__nav-list__links">About Product</a></li>
+				<li class="project-nav__nav-list__item"><a href="#features-section" class="project-nav__nav-list__links">Features</a></li>
+				<li class="project-nav__nav-list__item"><a href="#specs-section" class="project-nav__nav-list__links">Specs</a></li>
+				<li class="project-nav__nav-list__item"><a href="#about-company-section" class="project-nav__nav-list__links">Company Profile</a></li>
+				<li class="project-nav__nav-list__item"><a href="#contact-section" class="project-nav__nav-list__links">Contacts</a></li>
 			</ul>
 		</div>
 	</nav><!-- end of 'nav' -->
@@ -37,7 +37,7 @@
 		</div>
 	</header><!-- end of 'header' -->
 
-	<div class="product-details">
+	<div id="about-section" class="product-details">
 		<div class="wrapper">
 			<h2 class="headline headline--about-product headline--leftaligned">Lorem ipsum dolor sit amet</h2>
 
@@ -65,7 +65,7 @@
 		</div>
 	</div><!-- end of 'product-details' -->
 
-	<div class="features">
+	<div id="features-section" class="features">
 		<div class="wrapper">
 			<h2 class="headline headline--centered headline--features-headline">Features</h2>
 
@@ -115,7 +115,7 @@
 
 	</div><!-- end of 'features' -->
 
-	<div class="tech-specs">
+	<div id="specs-section" class="tech-specs">
 
 		<div class="wrapper">
 			<h2 class="headline headline--centered headline--tech-specs">Tech spec of the product</h2>
@@ -151,7 +151,7 @@
 		</div>
 	</div><!-- end of 'tech-specs' -->
 
-	<div class="about-company section-background">
+	<div id="about-company-section" class="about-company section-background">
 		<div class="wrapper">
 			<h2 class="headline headline--centered headline--about-company-heading">About Ethereal</h2>
 
@@ -170,7 +170,7 @@
 		</div>
 	</div><!-- end of 'about-company' -->
 
-	<div class="contact-and-enquiry">
+	<div id="contact-section" class="contact-and-enquiry">
 		<div class="wrapper wrapper--form">
 			<h2 class="headline headline--form-headline headline--centered">Contact and enquiry</h2>
 
@@ -197,7 +197,7 @@
 		</div>
 	</div><!-- end of 'contact-and-enquiry' -->
 
-	<footer class="project-footer">
+	<footer id="footer-section" class="project-footer">
 		<div class="wrapper wrapper--footer">
 			<div class="project-footer--left-side">
 				<div class="project-footer__company-logo">
@@ -236,5 +236,8 @@
 
 		</div>
 	</footer>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/scripts/app.js"></script>
 </body>
 </html>

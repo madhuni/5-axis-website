@@ -5,6 +5,11 @@
 	font-family: 'Roboto', sans-serif;
 	color: $fontColor;
 	background-color: $navColor;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
 
 	&__img-container {
 		width: 30%;
@@ -19,11 +24,26 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: flex-end;
+		align-items: center;
 
 		li {
 			display: inline-block;
 			margin-left: 52px;
 			text-transform: uppercase;
+		}
+
+		&__links {
+			color: $fontColor;
+			text-decoration: none;
+		}
+
+		&__links:hover {
+			text-decoration: underline;
+			color: $fontColor;
+		}
+
+		&__links:focus {
+			color: $fontColor;
 		}
 	}
 }

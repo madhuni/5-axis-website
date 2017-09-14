@@ -6900,18 +6900,22 @@ button.close {
 	}
 .features__feature-item {
 		text-align: center;
-		max-width: 168px;
+		max-width: 200px;
 		width: 25%;
 		margin-right: 45.1px;
 		margin-left: 45.1px;
 		margin-bottom: 56px;
 	}
 .features__feature-item__heading {
+			margin-top: 24px !important;
 			text-transform: uppercase;
 			font-family: 'Open Sans', sans-serif !important;
 		}
 .features__feature-item p {
 			font-family: 'Roboto', sans-serif !important;
+		}
+.features__feature-item img {
+			margin: 0 auto;
 		}
 @media screen and (max-width: 720px) {
 .features__feature-item {

@@ -18,6 +18,10 @@
 		margin-left: 45.1px;
 		margin-bottom: 56px;
 
+		&__heading {
+			text-transform: uppercase;
+		}
+
 		@mixin atSmall {
 			width: 100%;
 		}

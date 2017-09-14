@@ -6885,6 +6885,9 @@ button.close {
 		margin-left: 45.1px;
 		margin-bottom: 56px;
 	}
+.features__feature-item__heading {
+			text-transform: uppercase;
+		}
 @media screen and (max-width: 720px) {
 .features__feature-item {
 			width: 100%
@@ -6892,7 +6895,7 @@ button.close {
 	}
 .product-details {
 	
-	padding-bottom: 137px;
+	padding-bottom: 0px;
 
 }
 .product-details__row {

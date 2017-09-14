@@ -6863,6 +6863,7 @@ button.close {
 .product-details {
 	
 	padding-bottom: 137px;
+
 }
 .product-details__row {
 		position: relative;
@@ -6879,11 +6880,14 @@ button.close {
 		}
 .product-details__product-image {
 
-		position: absolute;
-		top: -70px;
-		right: 0;
+		position: relative;
+		/*top: -70px;*/
 	}
+/*right: 0;*/
 .product-details__product-image img {
+			position: absolute;
+			top: -70px;
+			right: 0;
 			display: block;
 			margin: 0 auto;
 		}

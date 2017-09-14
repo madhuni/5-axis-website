@@ -20,13 +20,17 @@
 
 	&__product-image {
 
-		position: absolute;
-		top: -70px;
-		right: 0;
+		position: relative;
+		/*top: -70px;*/
+		/*right: 0;*/
 
 		img {
+			position: absolute;
+			top: -70px;
+			right: 0;
 			display: block;
 			margin: 0 auto;
 		}
 	}
+
 }

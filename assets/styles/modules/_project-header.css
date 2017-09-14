@@ -65,6 +65,29 @@
 
 .project-header {
 	height: 100vh;
+	background: url('../../assets/images/first-frame-pic.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	&__heading {
+		width: 100%;
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translateY(-50%);
+		transform: translateX(-50%);
+
+		h1 {
+			font-size: 45px;
+			margin-top: 0 !important;
+		}
+
+		span {
+			font-size: 16px;
+			padding: 10px;
+		}
+	}
 }
 
 .embed-responsive video{

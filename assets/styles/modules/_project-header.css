@@ -1,4 +1,4 @@
-.project-header {
+/*.project-header {
 	
 	padding-top: 27px;
 	background-color: darkviolet;
@@ -41,4 +41,33 @@
 		}
 	}
 
+}*/
+
+/*.project-header {
+	position: relative;
+	overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #e0dfe1;
+
+    &__video {
+    	position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+		background-color: #e0dfe1;
+		margin: auto;
+    }
+}*/
+
+.project-header {
+	height: 100vh;
+}
+
+.embed-responsive video{
+	width: auto !important;
+	height: 100% !important;
 }

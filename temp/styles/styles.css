@@ -7032,6 +7032,8 @@ button.close {
 	background-position: center;
 }
 .project-header__heading {
+		color: #fff;
+		text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 		width: 100%;
 		position: absolute;
 		top: 65%;
@@ -7042,11 +7044,11 @@ button.close {
 		        transform: translateX(-50%);
 	}
 .project-header__heading h1 {
-			font-size: 45px;
+			font-size: 50px;
 			margin-top: 0 !important;
 		}
 .project-header__heading span {
-			font-size: 16px;
+			font-size: 30px;
 			padding: 10px;
 		}
 .embed-responsive video{

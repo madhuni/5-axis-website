@@ -6775,12 +6775,14 @@ button.close {
 .headline--top-heading {
 		font-size: 50px;
 	}
-.headline--about-company-heading,
-	.headline--form-headline,
+.headline--form-headline,
 	.headline--features-headline,
 	.headline--about-product,
 	.headline--tech-specs {
-		padding: 84px 0 70px;
+		padding: 72px 0 48px;
+	}
+.headline--about-company-heading {
+		padding: 96px 0 48px;
 	}
 .section-background {
 	background-color: #444444;
@@ -6878,8 +6880,8 @@ button.close {
 	}
 .product-details__description {
 
-		padding-left: 0;
-		padding-right: 51px;
+		padding: 0;
+		margin-bottom: 52px;
 	}
 .product-details__description p {
 			font-size: 20px;
@@ -6893,9 +6895,9 @@ button.close {
 	}
 /*right: 0;*/
 .product-details__product-image img {
-			position: absolute;
-			top: -70px;
-			right: 0;
+			/*position: absolute;*/
+			/*top: -70px;*/
+			/*right: 0;*/
 			display: block;
 			margin: 0 auto;
 		}

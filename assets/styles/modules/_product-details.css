@@ -8,8 +8,8 @@
 
 	&__description {
 
-		padding-left: 0;
-		padding-right: 51px;
+		padding: 0;
+		margin-bottom: 52px;
 
 		p {
 			font-size: 20px;
@@ -25,9 +25,9 @@
 		/*right: 0;*/
 
 		img {
-			position: absolute;
-			top: -70px;
-			right: 0;
+			/*position: absolute;*/
+			/*top: -70px;*/
+			/*right: 0;*/
 			display: block;
 			margin: 0 auto;
 		}

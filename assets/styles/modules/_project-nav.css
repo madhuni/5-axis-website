@@ -4,6 +4,10 @@
 	&__nav-list {
 		text-align: center;
 
+		li {
+			font-family: 'Roboto', sans-serif !important;
+		}
+
 		li:hover {
 			background-color: black;
 		}

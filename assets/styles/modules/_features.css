@@ -20,6 +20,11 @@
 
 		&__heading {
 			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif !important;
+		}
+
+		p {
+			font-family: 'Roboto', sans-serif !important;
 		}
 
 		@mixin atSmall {

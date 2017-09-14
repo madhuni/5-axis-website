@@ -6724,6 +6724,21 @@ button.close {
 .hide {
 	display: none !important;
 }
+/*@font-face {
+	font-family: akkuratBold;
+	src: url('../../fonts/akkurat-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: liberationSans;
+	src: url('../../fonts/liberation-sans-regular.ttf') format('truetype');
+}*/
+.roboto {
+	font-family: 'Roboto', sans-serif !important;
+}
+.open-sans {
+	font-family: 'Open Sans', sans-serif !important;
+}
 .wrapper {
 	margin: 0 auto;
 	padding: 0 20px;
@@ -6759,7 +6774,7 @@ button.close {
 	}
 .headline {
 	font-size: 40px;
-	font-family: AkkuratBold;
+	font-family: akkuratBold;
 	font-weight: bold;
 	margin: 0;
 }
@@ -6771,6 +6786,7 @@ button.close {
 	}
 .headline--about-company-heading {
 		/*color: $fontColor;*/
+		font-family: 'Open Sans', sans-serif;
 	}
 .headline--top-heading {
 		font-size: 50px;
@@ -6782,6 +6798,7 @@ button.close {
 	}
 .headline--form-headline {
 		padding: 72px 0 21px;
+		font-family: 'Open Sans', sans-serif;
 	}
 .headline--about-company-heading {
 		padding: 96px 0 48px;
@@ -6794,7 +6811,7 @@ button.close {
 		text-align: center;
 		font-size: 20px;
 		font-weight: 300;
-		font-family: LiberationSans;
+		font-family: 'Roboto', sans-serif !important;
 		line-height: 1.6;
 		margin-bottom: 15px;
 	}
@@ -6834,6 +6851,7 @@ button.close {
 	color: #fff;
 }
 .contact-and-enquiry__msg {
+		font-family: 'Open Sans', sans-serif !important;
 		text-align: center;
 		padding-bottom: 54px;
 		margin-bottom: 0;
@@ -6844,6 +6862,8 @@ button.close {
 		padding-bottom: 56px;
 	}
 .contact-and-enquiry__form__submit-btn {
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif !important;
 		display: block;
 		width: 192px;
 		margin-left: auto;
@@ -6857,6 +6877,7 @@ button.close {
 	}
 .contact-and-enquiry .form-group label {
 			text-transform: uppercase;
+			font-family: 'Roboto', sans-serif !important;
 		}
 .features {
 	
@@ -6887,6 +6908,10 @@ button.close {
 	}
 .features__feature-item__heading {
 			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif !important;
+		}
+.features__feature-item p {
+			font-family: 'Roboto', sans-serif !important;
 		}
 @media screen and (max-width: 720px) {
 .features__feature-item {
@@ -6909,7 +6934,7 @@ button.close {
 .product-details__description p {
 			font-size: 20px;
 			line-height: 1.4;
-			font-family: 'LiberationSans';
+			font-family: 'Open Sans', sans-serif;
 		}
 .product-details__product-image {
 
@@ -7044,10 +7069,13 @@ button.close {
 		        transform: translateX(-50%);
 	}
 .project-header__heading h1 {
+			/*font-family: 'Roboto', sans-serif;*/
+			/*font-family: akkuratBold;*/
 			font-size: 50px;
 			margin-top: 0 !important;
 		}
 .project-header__heading span {
+			/*font-family: 'Open Sans', sans-serif;*/
 			font-size: 30px;
 			padding: 10px;
 		}
@@ -7058,6 +7086,9 @@ button.close {
 .navbar__nav-list {
 		text-align: center;
 	}
+.navbar__nav-list li {
+			font-family: 'Roboto', sans-serif !important;
+		}
 .navbar__nav-list li:hover {
 			background-color: black;
 		}
@@ -7235,4 +7266,5 @@ button.close {
 	}
 .project-footer__copyright {
 		font-size: 10px;
+		font-family: 'Roboto', sans-serif;
 	}

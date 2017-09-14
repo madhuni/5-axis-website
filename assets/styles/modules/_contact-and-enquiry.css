@@ -2,6 +2,7 @@
 	color: $fontColor;
 
 	&__msg {
+		font-family: 'Open Sans', sans-serif !important;
 		text-align: center;
 		padding-bottom: 54px;
 		margin-bottom: 0;
@@ -14,6 +15,8 @@
 	}
 
 	&__form__submit-btn {
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif !important;
 		display: block;
 		width: 192px;
 		margin-left: auto;
@@ -29,6 +32,7 @@
 
 		label {
 			text-transform: uppercase;
+			font-family: 'Roboto', sans-serif !important;
 		}
 	}
 }

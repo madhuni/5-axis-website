@@ -1,6 +1,6 @@
 .headline {
 	font-size: 40px;
-	font-family: $headlineFont;
+	font-family: akkuratBold;
 	font-weight: bold;
 	margin: 0;
 
@@ -14,6 +14,7 @@
 	
 	&--about-company-heading {
 		/*color: $fontColor;*/
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	&--top-heading {
@@ -28,6 +29,7 @@
 	
 	&--form-headline {
 		padding: 72px 0 21px;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	&--about-company-heading {

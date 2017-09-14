@@ -4,6 +4,7 @@
 /* Importing the assets styles */
 @import "base/_variables";
 @import "base/_global";
+@import "modules/_fonts";
 @import "base/_mixins";
 @import "modules/_wrapper";
 @import "modules/_headline";

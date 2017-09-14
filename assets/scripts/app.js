@@ -1,26 +1,26 @@
 $(function() {
+	
+	$('a[href^="#"]').click(function(e) {
+		console.log("Click event registered on the links");
+		var target = $(this).attr('href');
+		var strip = target.slice(1);
+		var anchor = $("div[id='" + strip + "']");
 
-	// function for smooth scrolling to the different sections when navigated
-	function smoothScroll() {
+		e.preventDefault();
 
-		$('a[href^="#"]').click(function(e) {
+		$('body').animate({
 
-			var target = $(this).attr('href');
-			var strip = target.slice(1);
-			var anchor = $("div[id='" + strip + "']");
+			scrollTop: anchor.offset().top
 
-			e.preventDefault();
+		}, 1000);
 
-			$('body').animate({
+		// Added code for proper working of scrolling on firefox
+		$('html').animate({
 
-				scrollTop: anchor.offset().top
+			scrollTop: anchor.offset().top
 
-			}, 1000);
-		});
-
-	}
-
-	// calling the smooth scroll function
-	smoothScroll();
+		}, 1000);
+	
+	});
 
 });
